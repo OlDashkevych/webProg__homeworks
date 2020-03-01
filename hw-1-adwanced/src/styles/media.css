@@ -1,0 +1,231 @@
+@media (min-width: 640px) {
+  .header {
+    height: 74px;
+  }
+  .nav-burger {
+    width: 74px;
+  }
+  .nav-info {
+    font-size: 24px;
+  }
+  .nav-list {
+    top: 74px;
+  }
+  .banner--first {
+    padding: 28px 38px;
+  }
+  .banner--first-descr {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .banner--first-link {
+    font-size: 24px;
+  }
+  .nav-burger-lines {
+    height: 20px;
+    width: 30px;
+  }
+  .nav-burger:hover .nav-burger-line--top {
+    transform: rotate(45deg) translateX(12px);
+  }
+  .nav-burger:hover .nav-burger-line--bottom {
+    transform: rotate(-45deg) translateX(12px);
+  }
+  .nav-burger:hover .nav-burger-lines {
+    transform: translateX(-8px);
+  }
+  .banner-title {
+    font-size: 36px;
+  }
+  .nav-list {
+    width: 244px;
+  }
+  .nav-list-item {
+    line-height: 3;
+    font-size: 14px;
+  }
+  .general-title {
+    font-size: 40px;
+  }
+  .general-descr {
+    font-size: 20px;
+  }
+  .sectionMenu-titleBox-title {
+    font-size: 40px;
+  }
+  .sectionMenu-subTitle {
+    font-size: 30px;
+    background-size: 32px;
+  }
+  .sectionMenu-list-item-title {
+    font-size: 27px;
+  }
+  .sectionMenu-list-item-info {
+    font-size: 17px;
+    margin: 12px 0;
+  }
+  .sectionMenu-list-item-price {
+    font-size: 27px;
+  }
+  .sectionMenu-list-item::before {
+    font-size: 22px;
+  }
+  .footer {
+    margin-top: 114px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 980px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 98px;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .logo {
+    display: block;
+  }
+  .nav-list {
+    position: static;
+    display: flex;
+    width: 662px;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+  .nav {
+    width: fit-content;
+  }
+  .nav-info {
+    display: none;
+  }
+  .nav-burger {
+    background-color: transparent;
+    float: unset;
+    display: block;
+    width: fit-content;
+  }
+  .nav-burger-lines {
+    display: none;
+  }
+  .nav-list-item {
+    background-color: unset;
+    border: none;
+    color: #ebebeb;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    width: fit-content;
+    text-align: center;
+    padding: 8px 16px;
+  }
+  .nav-burger:hover .nav-list {
+    display: flex;
+  }
+  .nav-burger:hover {
+    background-color: transparent;
+  }
+  .nav-list-item:hover {
+    background-color: #2a2d2e;
+  }
+  .banners-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3px;
+  }
+  .banner--first {
+    grid-column: 1/4;
+    padding: 48px 38px;
+    height: 54vw;
+  }
+  .banner-angleBox {
+    display: none;
+  }
+  .banner--third {
+    background-image: url("../images/banner-1-980.jpg");
+  }
+  .banner--second {
+    background-image: url("../images/banner-3-980.jpg");
+  }
+  .banner--fourth {
+    background-image: url("../images/banner-2-980.jpg");
+  }
+  .small-banner {
+    height: 33vw;
+  }
+  .banner-title {
+    font-size: 38px;
+  }
+  .banner--first-descr {
+    font-size: 54px;
+  }
+  .banner--first-link {
+    font-size: 34px;
+    margin-top: 58px;
+  }
+  .general-titles {
+    margin: 65px 0 18px;
+  }
+  .logo-menu {
+    display: block;
+  }
+  .sectionMenu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionMenu-container {
+    width: 92%;
+  }
+  .footer__logo {
+    display: block;
+  }
+  .sectionMenu-titleBox-title {
+    font-size: 34px;
+  }
+  .sectionMenu-subTitle {
+    font-size: 26px;
+  }
+  .sectionMenu-list-item-title {
+    font-size: 24px;
+  }
+  .sectionMenu-list-item-info {
+    font-size: 16px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 97px;
+  }
+  .sectionMenu-subTitle {
+    margin: 30px 0;
+  }
+  .footer br {
+    display: none;
+  }
+  .footer-info {
+    margin: 0;
+  }
+  .sectionMenu-subTitle {
+    background-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner--first-descr {
+    font-size: 62px;
+  }
+  .banner--first-link {
+    font-size: 38px;
+    margin-top: 36px;
+  }
+  .sectionMenu-subTitle {
+    font-size: 30px;
+  }
+  .sectionMenu-list-item-title {
+    font-size: 27px;
+  }
+  .sectionMenu-list-item-info {
+    font-size: 17.5px;
+  }
+}
