@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: "Verdana";
+}
+.top-bar {
+  height: 54px;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 0 78px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 66px;
+}
+.logo {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 584px;
+  width: 446px;
+  background-color: #ffffff;
+  padding: 26px 62px 32px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.48);
+}
+.card__auth {
+  font-size: 20px;
+  color: rgb(67, 67, 67);
+  width: 50%;
+  height: fit-content;
+}
+.card__auth--logIn {
+  font-size: 14px;
+  color: rgb(60, 184, 120);
+  text-align: right;
+}
+.card__button {
+  height: 46px;
+  width: 156px;
+}
+.card__button--gmail{}
+.card__button--face{}
